@@ -16,7 +16,7 @@ public class Config {
 
     public static final String BOOTSTRAP_DATA_TIMESTAMP = "Wen, 29 March 2017 00:42:42 GMT";
 
-    public static final TimeZone EXHIBIT_TIMEZONE = TimeZone.getTimeZone("America/Los_Angeles");
+    public static final TimeZone EXHIBIT_TIMEZONE = TimeZone.getTimeZone("Kenya/Nairobi");
 
     public static boolean isCustomRom() {
         if(DEBUG) MyDebug.LOGD(TAG, "Build=" + Build.DISPLAY.toLowerCase() + "  isCustomRom=" + Build.DISPLAY.toLowerCase().contains("motb"));
